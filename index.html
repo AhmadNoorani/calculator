@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="logic.js"></script>
+</head>
+<body>
+    <div class="calculator">
+    <input type="text" class="displaybox" id="input" >
+    <span class="button">
+    <button><div class="button" onclick="clearResult()" id="clear">AC</div></button>
+    <button><div class="button" onclick="number('(')" id="lbarcket">(</div></button>
+    <button><div class="button" onclick="number(')')" id="rbracket">)</div></button>
+    <button><div class="button" onclick="deleteNum()" id="delete">DEL</div></button>
+    <button><div class="button" onclick="number('7')" id="7">7</div></button>
+    <button><div class="button" onclick="number('8')" id="8">8</div></button>
+    <button><div class="button" onclick="number('9')" id="9">9</div></button>
+    <button><div class="button" onclick="number('/')" id="divide">/</div></button>
+    <button><div class="button" onclick="number('4')" id="4">4</div></button>
+    <button><div class="button" onclick="number('5')" id="5">5</div></button>
+    <button><div class="button" onclick="number('6')" id="6">6</div></button>
+    <button><div class="button" onclick="number('*')" id="*">*</div></button>
+    <button><div class="button" onclick="number('1')" id="1">1</div></button>
+    <button><div class="button" onclick="number('2')" id="2">2</div></button>
+    <button><div class="button" onclick="number('3')" id="3">3</div></button>
+    <button><div class="button" onclick="number('-')" id="substract">-</div></button>
+    <button><div class="button" onclick="number('.')" id="point">.</div></button>
+    <button><div class="button" onclick="number('0')" id="0">0</div></button>
+    <button><div class="button" onclick="result()" id="equal">=</div></button>
+    <button><div class="button" onclick="number('+')" id="addition">+</div></button>
+    
+</span>
+ 
+</body>
+</html>
